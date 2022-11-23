@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Demo")
 
-tab1, tab2 = st.tabs(["TOPOLOGY", "LINKS"])
+tab1, tab2, tab3 = st.tabs(["TOPOLOGY", "SCENARIOS" ,"LINKS"])
 
 with tab1:
   st.header("TOPOLOGY")
@@ -16,6 +16,12 @@ with tab1:
   st.image(topo2)
   
 with tab2:
+  st.header("SCENARIOS")
+  st.markdown("1/ SWARMS & SERVICES")
+  st.markdown("2/ LOAD BALANCING & THE ROUTING MESH")
+  st.markdown("3/ APPLICATION DEPLOYMENT")
+  
+with tab3:
   st.header("LINKS")
   import streamlit as st 
   st.write("[Swarmpit link](http://docker.demo.ai/swarmpit)")
