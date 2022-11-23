@@ -9,9 +9,10 @@ image = Image.open('lampstring.png')
 
 st.image(image)
 
-st.title("Welcome to Docker Swarm Demo")
-st.header("Prenseted by Thien Thanh 🌤")
-st.markdown("Agenda")
+
+st.markdown("<h1 style='text-align: center; color: white;'>Welcome to Docker Swarm Demo</h1>", unsafe_allow_html=True)
+
+st.markdown("<h1 style='text-align: center; color: white;'>Prenseted by Thien Thanh 🌤</h1>", unsafe_allow_html=True)
 
 xmastree = "xmastree.png"
 st.image(xmastree)
