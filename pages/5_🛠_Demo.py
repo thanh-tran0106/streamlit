@@ -6,8 +6,8 @@ st.title("Demo")
 from PIL import Image
 topo1 = Image.open('topo1.png')
 
-st.image(top1)
+st.image(topo1)
 
 topo2 = Image.open('topo2.png')
 
-st.image(top2)
+st.image(topo2)
