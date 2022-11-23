@@ -5,7 +5,7 @@ st.set_page_config(
     page_icon="🌤",
 )
 from PIL import Image
-image = Image.open('lampstring.jpg')
+image = Image.open('lampstring.png')
 
 st.image(image)
 
