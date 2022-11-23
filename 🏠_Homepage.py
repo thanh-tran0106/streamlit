@@ -4,8 +4,9 @@ st.set_page_config(
     page_title="Docker Demo",
     page_icon="🌤",
 )
-st.title("Welcome Page")
-st.sidebar.success("Select a page above")
+st.title("Welcome to Docker Swarm Demo")
+st.header("Prenseted by Thien Thanh 🌤")
+st.markdown("Agenda")
     
 # Use local CSS
 def local_css(file_name):
