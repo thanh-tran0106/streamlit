@@ -13,7 +13,7 @@ st.title("Welcome to Docker Swarm Demo")
 st.header("Prenseted by Thien Thanh 🌤")
 st.markdown("Agenda")
 
-xmastree = "https://www.citypng.com/photo/15778/hd-golden-sparkle-christmas-tree-png"
+xmastree = "xmastree.png"
 st.image(xmastree)
 
 # Use local CSS
