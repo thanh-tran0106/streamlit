@@ -1,5 +1,5 @@
 import streamlit as st
-
+from PIL import Image
 st.title("Docker Swarm")
 
 st.header("DISTRIBUTED APPLICATION ARCHITECTURE")
@@ -11,3 +11,8 @@ st.header("NETWORKING REQUIREMENTS")
 st.markdown("- Control plane: enable service discovery for containers across hosts")
 st.markdown("- Data plane: enable moving a packet from host A to host B")
 st.markdown("- Management plane: decide where containers should be scheduled")
+
+#open the image
+image = Image.open('./images/swarmn-diagram.png')
+#
+st.image(image, caption='Swarm Diagram')
