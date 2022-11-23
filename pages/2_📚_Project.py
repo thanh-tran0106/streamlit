@@ -13,6 +13,6 @@ st.markdown("- Data plane: enable moving a packet from host A to host B")
 st.markdown("- Management plane: decide where containers should be scheduled")
 
 #open the image
-image = Image.open('images/swarmn-diagram.png')
+image = Image.open('/app/images/swarmn-diagram.png')
 #
 st.image(image, caption='Swarm Diagram')
