@@ -12,7 +12,7 @@ st.image(image)
 
 st.markdown("<h1 style='text-align: center; color: white;'>Welcome to Docker Swarm Demo</h1>", unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center; color: white;'>Prenseted by Thien Thanh 🌤</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: white;'>Prenseted by Thien Thanh 🌤</h2>", unsafe_allow_html=True)
 
 xmastree = "xmastree.png"
 st.image(xmastree)
