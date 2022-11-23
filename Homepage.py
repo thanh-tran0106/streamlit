@@ -12,7 +12,10 @@ st.image(image)
 st.title("Welcome to Docker Swarm Demo")
 st.header("Prenseted by Thien Thanh 🌤")
 st.markdown("Agenda")
-    
+
+xmastree = "https://www.citypng.com/photo/15778/hd-golden-sparkle-christmas-tree-png"
+st.image(xmastree)
+
 # Use local CSS
 def local_css(file_name):
     with open(file_name) as f:
