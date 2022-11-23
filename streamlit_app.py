@@ -31,3 +31,11 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+st.set_page_config(
+    page_tile="Docker Demo",
+    page_icon="🌤",
+)
+st.title("Welcome Page")
+st.sidebar.success("Select a page above")
+    
