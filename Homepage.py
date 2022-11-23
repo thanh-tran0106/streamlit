@@ -4,6 +4,11 @@ st.set_page_config(
     page_title="Docker Demo",
     page_icon="🌤",
 )
+from PIL import Image
+image = Image.open('lampstring.jpg')
+
+st.image(image)
+
 st.title("Welcome to Docker Swarm Demo")
 st.header("Prenseted by Thien Thanh 🌤")
 st.markdown("Agenda")
