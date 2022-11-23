@@ -33,7 +33,7 @@ st.markdown(
 )
 
 st.set_page_config(
-    page_tile="Docker Demo",
+    page_title="Docker Demo",
     page_icon="🌤",
 )
 st.title("Welcome Page")
