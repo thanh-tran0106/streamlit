@@ -8,11 +8,11 @@ st.markdown("- Ask three other neighbors if they can reach neighbor A")
 st.markdown("- No to both: conclude neighbor A is unhealthy/dead")
 
 
-fakeimage = "https://c.tenor.com/T4HzdRJwVQIAAAAC/swim-in.gif"
+fakeimage = "https://cdn.dribbble.com/users/1100256/screenshots/3639908/swim.gif"
 st.image(fakeimage, caption='SWIM')
 
 st.markdown("Just kidding, this is the real one ^^")
 
-image = "https://www.brianstorti.com/assets/images/swim/failure-detection.png"
+image = "https://hqt.github.io/assets/img/2020-07-07/swim_failure_detector.png"
 #
 st.image(image, caption='Failure Detection')
