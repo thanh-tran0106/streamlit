@@ -16,3 +16,8 @@ st.markdown("Just kidding, this is the real one ^^")
 image = "https://hqt.github.io/assets/img/2020-07-07/swim_failure_detector.png"
 #
 st.image(image, caption='Failure Detection')
+
+st.header("GOSSIP CONTROL PLANE")
+st.markdown("- Docker control plane: piggyback DNS info on SWIM traffic")
+st.markdown("- DNS entries spread 'infectiously' through cluster.")
+st.markdown("- Gossip control plane scales independent of cluster size")
