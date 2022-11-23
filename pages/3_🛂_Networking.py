@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.title("CONTROL PLANE")
-tab1, tab2, tab3 = st.tabs(["CONTROL PLAN", "SWIM PROTOCOL", "GOSSIP CONTROL PLANE", "DATA PLANE"])
+st.title("DOCKER SWARM NETWORKING")
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["SWIM PROTOCOL", "GOSSIP CONTROL PLANE", "DATA PLANE", "MANAGEMENT PLANE", "RAFT CONSENSUS"])
 
 with tab1:
   
@@ -33,3 +33,18 @@ with tab3:
   st.markdown("- It uses standard VXLAN to encapsulate container traffic and send it to other containers")
   st.markdown("- VXLAN is an encapsulation format that wraps Layer 2 segments with an IP/UDP header, and then send it over Layer 3 networks")
   st.image(vxlanimage, caption='Networking on Control Plan')
+
+with tab4:
+  st.header("MANAGEMENT PLANE")
+  st.markdown("- Need a manager to decide where to schedule containers (ie update system state)")
+  st.markdown("- Need multiple managers for high availability")
+  st.markdown("- Raft Consensus to preserve an up-to-date system state in event of leader failure")
+
+with tab5:
+  st.header("RAFT CONSENSUS (radically simplified)")
+  st.markdown("- State changes can only be proposed by a unique leader")
+  st.markdown("- State cannot be changed unless a majority of members agree")
+  st.markdown("- A member cannot become leader unless it is in the up-to-date majority")
+  st.markdown("Result: valid leader always has an (almost) up-to-date record of state.")
+  st.markdown("Requirement: a majority of managers must remain alive and reachable.")
+  
