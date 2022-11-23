@@ -8,7 +8,8 @@ st.markdown("- Docker Swarm facilitates multi-node design.")
 st.markdown("- Also supports multiple interacting services (like Compose)")
 
 st.header("NETWORKING REQUIREMENTS")
-st.markdown("- Control plane: enable service discovery for containers across hosts")
+url = " "
+st.markdown("- Control plane:"  % url "enable service discovery for containers across hosts")
 st.markdown("- Data plane: enable moving a packet from host A to host B")
 st.markdown("- Management plane: decide where containers should be scheduled")
 
