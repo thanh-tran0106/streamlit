@@ -18,5 +18,5 @@ with tab1:
 with tab2:
   st.header("LINKS")
   import streamlit as st 
-  st.write("Swarmpit [link](http://docker.demo.ai/swarmpit)")
-  st.write("Jenkins [link](http://jenkins.docker.demo.ai/)")
+  st.write("[Swarmpit link](http://docker.demo.ai/swarmpit)")
+  st.write("[Jenkins link](http://jenkins.docker.demo.ai/)")
