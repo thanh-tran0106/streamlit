@@ -18,3 +18,4 @@ st.markdown("- Default security via mutual TLS encryption & certificate rotation
 st.markdown("- Simple service discovery & load balancing")
 
             
+st.markdown("<h2 style='text-align: center; color: white;'>THANK YOU AND PEACE OUT! 🫳🏻 🎤</h2>", unsafe_allow_html=True)
