@@ -18,9 +18,17 @@ with tab1:
 with tab2:
   st.header("SCENARIOS")
   st.markdown("1/ SWARMS & SERVICES")
+  st.markdown("- Creating a Swarm")
+  st.markdown("- Starting a Service")
+  st.markdown("- Node Failure Recovery")
   st.markdown("2/ LOAD BALANCING & THE ROUTING MESH")
+  st.markdown("- Observe load balancing and Scale")
+  st.markdown("- The Routing Mesh")
+  st.markdown("- Cleanup")
   st.markdown("3/ APPLICATION DEPLOYMENT")
-  
+  st.markdown("- Dockercoin on Swarm")
+  st.markdown("- Scaling and Scheduling Services")
+  st.markdown("- Updating a Service")
 with tab3:
   st.header("LINKS")
   import streamlit as st 
