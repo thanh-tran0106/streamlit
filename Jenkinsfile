@@ -18,8 +18,8 @@ pipeline {
       script {
         dir('streamlit') {
           sh 'ls -la'
-          sh 'docker rm -f streamlit'
-          sh 'docker stack deploy -c streamlit-stack.yaml streamlit'
+//          sh 'docker rm -f streamlit'
+//          sh 'docker stack deploy -c streamlit-stack.yaml streamlit'
         }
       }
     }
