@@ -12,7 +12,6 @@ pipeline {
         }     
       }
     }
-  }
   
   stage('Streamlit tear down and recreate') {
     steps {
