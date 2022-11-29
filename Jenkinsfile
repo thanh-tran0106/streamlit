@@ -1,6 +1,6 @@
 pipeline {
   agent{
-    label "agent0"
+    label "agent1"
   }
 
   stages {
@@ -18,6 +18,8 @@ pipeline {
       script {
         dir('streamlit') {
           sh 'ls -la'
+          sh 'docker rm -f streamlit'
+          sh 'docker stack deploy -c streamlit-stack.yaml streamlit'
         }
       }
     }
