@@ -13,4 +13,14 @@ pipeline {
       }
     }
   }
+  
+  stage('Streamlit tear down and recreate') {
+    steps {
+      script {
+        dir('streamlit') {
+          sh 'ls -la'
+        }
+      }
+    }
+  }
 }
