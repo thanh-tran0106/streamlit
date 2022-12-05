@@ -4,7 +4,7 @@ pipeline {
   }
 
   stages {
-    stage('Checkout: strealit source code') {
+    stage('Checkout: streamlit source code') {
       steps {
         dir('streamlit') {
           git branch : 'main',
@@ -18,8 +18,9 @@ pipeline {
       script {
         dir('streamlit') {
           sh 'ls -la'
-//          sh 'docker rm -f streamlit'
-//          sh 'docker stack deploy -c streamlit-stack.yaml streamlit'
+          sh 'docker rm -f streamlit'
+          sh 'docker build -t streamlit .'
+          sh 'docker run --name streamlit -p 8501:8501 -d streamlit'
         }
       }
     }
