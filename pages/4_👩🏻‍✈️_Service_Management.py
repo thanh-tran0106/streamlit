@@ -8,13 +8,11 @@ with tab1:
   st.header("SERVICE")
   st.markdown("- Abstracts a collection of tasks")
   st.markdown("- Defines desired state of tasks")
-  st.markdown("- Defines desired state of tasks")
   st.markdown("- Self healing")
   
   st.header("TASK")
   st.markdown("- A unit of work assigned to a node")
   st.markdown("- One task abstracts exactly one container")
-  st.markdown("- Defines desired state of tasks")
   st.markdown("- Atomic scheduling unit of Swarm")
   service_mnmgt = "https://docs.docker.com/engine/swarm/images/service-lifecycle.png"
   st.image(service_mnmgt, caption='Swarm mode accepts service, create requests and schedules tasks to worker nodes.')
