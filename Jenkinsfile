@@ -1,7 +1,5 @@
 pipeline {
-  agent{
-    label "agent1"
-  }
+  agent any
 
   stages {
     stage('Checkout: streamlit source code') {
