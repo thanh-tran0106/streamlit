@@ -1,6 +1,7 @@
 pipeline {
-  agent any
-
+  agent {
+     label "Built-In Node"
+   }
   stages {
     stage('Checkout: streamlit source code') {
       steps {
