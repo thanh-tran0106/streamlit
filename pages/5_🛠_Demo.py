@@ -25,10 +25,7 @@ with tab2:
   st.markdown("- Observe load balancing and Scale")
   st.markdown("- The Routing Mesh")
   st.markdown("- Cleanup")
-  st.markdown("3/ APPLICATION DEPLOYMENT")
-  st.markdown("- Dockercoin on Swarm")
-  st.markdown("- Scaling and Scheduling Services")
-  st.markdown("- Updating a Service")
+
 with tab3:
   st.header("LINKS")
   import streamlit as st 
