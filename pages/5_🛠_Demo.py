@@ -25,6 +25,8 @@ with tab2:
   st.markdown("- Observe load balancing and Scale")
   st.markdown("- The Routing Mesh")
   st.markdown("- Cleanup")
+  st.markdown("3/ Application Performance Monitoring")
+  st.markdown("- Swarmpit")
 
 with tab3:
   st.header("LINKS")
